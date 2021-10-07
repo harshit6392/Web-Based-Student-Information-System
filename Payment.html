@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="heading">Payment Form</h1>
+            <hr>
+            <h2>User information</h2>
+            <p>Name* 
+                <input type="text" name="name"  required placeholder="Harshit sharma ">
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male <input type="radio" name="Gender" id="Male" value="M" required >
+                    Female<input type="radio" name="Gender" id="Female" value="F" required>
+                </fieldset>
+            </p>
+            <p>
+                Address* 
+                <textarea name="address" id="address" cols="20" rows="5" required placeholder="Enter address here"></textarea>
+            </p>
+            <p>
+                Email* 
+                <input type="email" name="email" id="email" required placeholder="abc123@gmail.com">
+            </p>
+            <p>Pincode* 
+                <input type="number" name="pincode" id="pincode" required placeholder="123456">
+            </p>
+            <p><h2>Payment Information</h2></p>
+            <p>Card type
+                <select name="card_type" id="card_type" required>
+                    <option value="">---Select card type---</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Matercard">Mastercard</option>
+                    <option value="Rupay">Rupay</option>
+                </select>
+            </p>
+            <p>Card number* 
+                <input type="number" id="card_number" name="card_number" required placeholder="0000-0000-0000-0000"> 
+            </p>
+            <p>Expiration Date*
+                <input type="date" name="exp_id" id="exp_id" required>
+            </p>
+            <p>cvv*
+                <input type="password" id="cvv" name="cvv" required placeholder="000">
+            </p>
+            <p>
+                <input type="submit" value="Pay Now">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
