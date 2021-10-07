@@ -30,6 +30,12 @@ nav a {
     float: left;
     color: white;
 }
+nav a:hover{
+    color: tomato;
+}
+nav a:visited{
+    color: royalblue;
+}
 
 main {
     background-color: white;

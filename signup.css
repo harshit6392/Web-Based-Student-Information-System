@@ -1,3 +1,5 @@
-h1{
-    color: aqua;
+.special{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
 }
